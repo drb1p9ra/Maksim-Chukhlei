@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      .letter {
+       color: rgb(90, 77, 110);
+       }
+       .symbol {
+         color:rgb(58, 61, 236)
+       }
+       .symbol1 {
+         color:rgb(201, 22, 22)
+       }
+       .symbol2 {
+         color: darkgreen;
+         margin-left: 13px;
+       }
+       .ind {
+         margin-left: 40px;
+       }
+       .in {
+         margin-left: 250px;
+       }
+       .di {
+         line-height: 9px; 
+       }
+      </style>
+</head>
+<body>
+   <h1><center>
+      Заголовок первого уровня
+      </center>
+   </h1>
+   <h3><span class="letter">П</span>редварительно форматированный текст:
+
+   </h3>
+   <p> x <span class="symbol"><b> | </b></span>o<span class="symbol1"><b> | </b></span><br>
+      ‐‐‐‐‐‐‐‐‐‐‐<br>
+      <span class="symbol2"><b>|</b></span> х <span class="symbol1"><b>|</b></span><br>
+      ‐‐‐‐‐‐‐‐‐‐‐<br>
+      o | x <span class="symbol1"><b>|</b></span> o<br>
+      </p>
+      <h3>
+         <hr>
+         Тег address
+       </h3>
+       <p><em>Kuprevicha, 1/1, 220141, Minsk, Belarus. Phone: +375.17.2686911</em></p>
+       <h3><hr>Семантические и функциональные строчные теги</h3>
+       <p>Пожелания автора:<br>
+         <s class="symbol1">Данный текст убрать из монографии</s> и заменить его на <ins class ="symbol">вновь помещённый текст</ins>.
+         </p>
+         <h3>
+            <hr>
+              Работа со строчными и блоковыми цитатами
+           </h3>
+         <p>
+         Цитата короткая:<br>
+         <em>И всё­таки она вертится!</em>
+          </p>
+      <p>
+         Цитата занимающая несколько предложений:
+      </p>
+      <p class="ind">
+         О сколько нам открытий чудных<br>
+         Готовят просвещенья дух<br>
+         И опыт, сын ошибок трудных,<br>
+         И гений, парадоксов друг,<br>
+         И случай, бог изобретатель...
+      
+      </p>
+      <h3><hr>
+         Семантические и функциональные строчные теги
+      </h3>
+      <p>
+         <b>Тэг &lt;STRONG&gt; делает данный фрагмент текста более важным.</b> <em>Тэг &lt;em&gt; менее важным.</em><br>
+            В то время как теги &lt;b&gt; и &lt;i&gt;   делают текст просто <b>полужирным</b> и <em>курсивом</em> соответственно.
+            </p>
+             <h3><hr>
+               Теги форматирования машинного языка
+             </h3>
+             <p>При выполнении программного кода на языке PERL:</p>
+             <p style="font-family:Courier, monospace">
+               #!/usr/local/bin/perl<br>
+               print "Content‐type: text/html\n\n";<br>
+               print "&lt;H1&gt;Hello World&lt;/H1&gt;\n";
+
+             </p>
+             <p>Программа выведет:<br>
+               <p style="font-family:Courier, monospace">Hello, World!</p>          
+               <p> Однако в браузере у нас будет отображаться результат выполнения этой программы:
+
+             </p>
+             <h1>
+               Hello, World!
+             </h1>
+             <h3><hr>
+
+               Комментарии и литералы(мнемоники) в HTML
+             </h3>
+             <div>
+               &lt;!‐‐ это комментарий ‐‐&gt;
+               <div class="ind">&lt;!‐‐ и это также комментарий,<br>
+                                         занимающий более одной строки ‐‐&gt;</div>
+                                       </div>
+                                       <h3><hr>
+                                          Теги над­ и подстрочных символов
+                                       </h3>
+                                       <h4> <center>Магазин работает:</center></h4>
+                                       <p><center>
+                                          c 08<sup><ins>30</ins></sup> до 18<sup><ins>30</ins></sup><br>
+                                              обед с 13<sup><ins>00</ins></sup> до 14<sup><ins>00</ins></sup><br>
+                                                  выходной: <ins>суббота</ins>,<ins>воскресенье</ins></center>
+
+                                       </p>
+                                       <h3>
+                                          <hr>
+                                          Вот такой текст
+                                       </h3>
+                                       <h3 >
+                                          Э
+                                        <sub>т</sub>  
+                                          о
+                                          <sub>п</sub>
+                                          р
+                                          <sub>о</sub>
+                                          с
+                                          <sub>т</sub>
+                                          о
+                                          <sub>в</sub>
+                                          е
+                                          <sub>с</sub>
+                                          ё
+                                          <sub>л</sub>
+                                          ы
+                                          <sub>й</sub>
+                                          т
+                                          <sub>е</sub>
+                                          к
+                                          <sub>с</sub>
+                                          т
+                                       </h3>
+                                       <p><hr>
+                                          Акроним и курси
+                                       </p>
+                                       <p>
+                                          ТФ: Y(x)=e<sup>-­iπx</sup>+log<sub>x</sub>4
+                                       </p>
+                                       <h3> <hr>
+                                          Тег small внтури абзаца
+                                       </h3>
+</body>
+</html>
