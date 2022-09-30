@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+  <caption><h1>Заполните Анкету</h1></caption>
+  <form action="http://fe.it-academy.by/TestForm.php">
+   <fieldset>
+      <legend>Личные данные</legend>
+      <input type="text" value="Фамилия" pattern="[А-Яа-яЁё]" required placeholder="обязательное поле"maxlength="25">text: Только кириллица,без пробелов,длина поля 25,обязательное поле,автофокус в данном поле)<br>
+      <input type="text" value="Имя" pattern="[А-Яа-яЁё]" required placeholder="обязательное поле"maxlength="20">Только кириллица,без пробелов,длина поля 20,обязательное поле)<br>
+      <input type="text" value="Отчество" pattern="[А-Яа-яЁё]" required placeholder="обязательное поле"maxlength="24">Только кириллица,без пробелов,длина поля 24,обязательное поле)<br>
+      <fieldset>
+         <legend>Паспортные даннае</legend>
+         text:Серия-только заглавные две латинские буквы с длинной 2 и максимальным количеством символов 2,количество букв не менее 2,<br>
+         обязательное поле<br>
+         text:Номер паспорта-только цифры с длинной 7 и максимальным количеством символов 7,количество цифр не менее 7,обязательное поле<br>
+         <input type="text" value="" size="3" maxlength="2" required placeholder="обязательное поле" minlength="2">
+         <input type="text" value="" size="7"maxlength="7" required placeholder="обязательное поле" minlength="2">
+      </fieldset>
+      <fieldset>
+         <legend>Дата рождения</legend>
+         <input type="text" value="2000" size="5">text:Год рождения 4-е цифры<br>
+         <select name="list" id="list">
+            <optgroup label="">
+               <option value="1">Январь</option>
+                  <option value="1">Февраль</option>
+                  <option value="2">Март</option>
+                  <option value="3">Апрель</option>
+                  <option value="1">Май</option>
+                  <option value="2">Июнь</option>
+                  <option value="3">Июль</option>
+                  <option value="1">Август</option>
+                  <option value="2">Сентябрь</option>
+                  <option value="3">Октябрь</option>
+                  <option value="1">Ноябрь</option>
+                  <option value="1">Декабрь</option>
+                 </optgroup>
+            </select> select:Месяц рождения<br>
+                 <input type="number" size="5" min="1"max="31">number:Диапозон от 1 до 31 с шагом 1
+            </fieldset>
+            <select name="list" id="list" required>
+               <optgroup label="" >
+                  <option value="1">РБ</option>
+                     <option value="1">РФ</option>
+                     <option value="2">UA</option>
+                     </optgroup>
+               </select>(Национальность - выбор одного значения из списка,обязательное поле)<br>
+               Адрес:<br>
+               <textarea name="form" id="" cols="20" rows="2"></textarea>
+  </fieldset>
+  </form>
+  <form action="http://fe.it-academy.by/TestForm.php">
+   <fieldset>
+      <legend>Интересы</legend>
+      <fieldset>
+         <legend>arrau: Хобби</legend>
+         <input type="checkbox" name="hobby[]" value="hob1"> Рыбалка<br>
+         <input type="checkbox" name="hobby[]" value="hob1"> Астрономия <br>
+         <input type="checkbox" name="hobby[]" value="hob1"> Дайвинг<br>
+         <input type="checkbox" name="hobby[]" value="hob1"> Марки<br>
+      </fieldset>
+      <fieldset>
+         <legend>Домашние животные(возможность выбора нескольких вариантов)</legend>
+         arrau:select multiple<br>
+         <select multiple="multiple[]" name="birds" size="12">
+            <optgroup label="Попугаи">
+               <option value="1">Волнистый</option>
+                  <option value="2">Ара</option>
+                  <option value="3">Неразлучник</option>
+                  <optgroup label="Рыба">
+                  <option value="1">Караси</option>
+                  <option value="2">Окуни </option>
+                  <option value="3">Асетры</option>
+                  <optgroup label="Птицы">
+                  <option value="1">Старый ворон</option>
+                  <option value="2">Аист</option>
+                  <option value="3">Археоптерхикс</option>
+            </optgroup>
+            </select>
+      </fieldset>
+   </fieldset>
+  </form>
+  <form action="http://fe.it-academy.by/TestForm.php">
+   <fieldset>
+      <legend>Данные для входа и восстановления пароля</legend>
+      <input type="login" placeholder="Логин" pattern="[A-Za-z]"minlength="5" maxlength="20" required>text:Только латиница,без пробелов,не менее 5 символов,длина поля 20,обязательное поле)<br>
+      <input type="password" placeholder="Пароль" autocomplete="off" pattern="[A-Za-z]" minlength="10" maxlength="20" required>password:Только латиница,без пробелов,не менее 10 символов,длина поля 20,обязательное поле, отключить<br> атозаполнения
+   </fieldset>
+  </form>
+   <fieldset>
+      <legend>Координаты</legend>
+      <input type="email" placeholder="введите адрес почты">email:проверка должна осуществляться при помощи новых атрибут тега &lt;input&gt;)<br>
+      <input type="url" placeholder="введите адрес сайта">проверка должна осуществляться при помощи новых атрибут тега &lt;input&gt;)
+   </fieldset>
+   <form action="http://fe.it-academy.by/TestForm.php">
+      <fieldset>
+         <legend>Цифры</legend>
+         <input type="number" minlength="-2.5" maxlength="2.5" step="0.1">number:Диапозон от -2.5 до 2.5 с шагом 0.1<br>
+         <input type="range" min="1" max="10" id="size" >range:Максимальное 10 минимальное 1
+      </fieldset>
+   </form>
+   <form action="http://fe.it-academy.by/TestForm.php">
+      <fieldset>
+         <legend>Кнопки управления</legend>
+         <input type="submit" value="Отправить">
+         <input type="submit" value="Сбросить"><br>
+         <button type="button"><img src="email.jpg" alt="jpg"></button>
+      </fieldset>
+   </form>
+</body>
+</html>
