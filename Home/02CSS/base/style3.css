@@ -1,0 +1,33 @@
+body{
+   margin: 1em;
+}
+.Menu{
+   width: 15em;
+   height: 28em;
+   background-color: #dbdbdb;
+   float: left;
+}
+ul {
+background-color:#cccccc;
+list-style:upper-roman;
+}
+.block{
+margin-bottom: .2em;
+background-color: #aaaaaa;
+}
+.foot{
+   background-color:  #aaaaaa;
+   clear: both;
+   margin-top: .2em;
+}
+.qwer{
+clear: both;
+margin-bottom: .2em;
+}
+img { 
+   float: right;
+   margin-top: 1em;
+}
+.fon{
+   background-color:#cccccc;
+}

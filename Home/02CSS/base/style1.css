@@ -1,0 +1,39 @@
+.shift{
+   background-image:url(cards.7e0a18f0.png);
+   background-repeat:no-repeat;
+   background-position: 0px -1395px ;
+   width: 140px; height: 185px;
+    display: inline-block;
+}
+.shift1{
+   background-image:url(cards.7e0a18f0.png);
+   background-repeat: no-repeat;
+   background-position: 0px -1793px;
+   width: 140px; height: 185px;
+   display: inline-block;
+   margin-left: -130px;
+}
+.shift2{
+   background-image:url(cards.7e0a18f0.png);
+   background-repeat: no-repeat;
+   background-position: -285px -1395px;
+   width: 140px; height: 185px;
+   display: inline-block;
+   margin-left: -130px;
+}
+.shift3{
+   background-image:url(cards.7e0a18f0.png);
+   background-repeat: no-repeat;
+   background-position: -145px -2191px;
+   width: 140px; height: 185px;
+   display: inline-block;
+   margin-left: -130px;
+}
+.shift4{
+   background-image:url(cards.7e0a18f0.png);
+   background-repeat: no-repeat;
+   background-position: 0px -2391px;
+   width: 140px; height: 185px;
+   display: inline-block;
+   margin-left: -130px;
+}

@@ -1,0 +1,22 @@
+body{
+   font-size: 28px;
+}
+header{
+   text-align: right;
+}
+article{
+   font-family: 'Pacifico', cursive;
+}
+h2 
+   {  
+      text-decoration:underline;
+      font-weight: 900;
+      font-style: oblique;
+      text-indent: 5mm;
+      
+   }
+p{
+      text-indent: 5mm;
+   }
+   
+
