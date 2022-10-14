@@ -1,0 +1,16 @@
+a img {
+   display: none;
+   position: absolute;  
+}
+
+a:hover img{
+   display: inline;
+}
+p {
+   width: 80%;
+   text-indent:2em;
+   border:2px outset #666;
+   border-radius:10px 20px 10px  }
+   li{
+      list-style-image: url(pic/logo.jfif);
+   }

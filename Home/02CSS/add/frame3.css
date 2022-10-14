@@ -1,0 +1,6 @@
+.fram{ 
+   border: 30px solid transparent;
+  padding: 15px;
+  border-image: url(img/ramka.png) 50 round;
+
+}

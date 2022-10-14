@@ -1,0 +1,30 @@
+body{
+   counter-reset: heading 65;
+}
+table{
+   border:solid black;
+}
+
+td,tr{
+   
+   width: 90px;
+   height: 90px;
+   text-align: center;
+}
+
+.ch tr:nth-child(odd) td:nth-child(odd) {
+	background: rgb(3, 2, 0);
+   color: rgb(255, 255, 255);
+}	
+.ch tr:nth-child(even) td:nth-child(even) {
+	background: rgb(3, 2, 0);
+   color: rgb(255, 255, 255);
+  
+}
+td::before{
+   counter-increment: heading -1;
+   content: '' counter(heading) ' ';
+   font-size: 50px;
+   
+
+}

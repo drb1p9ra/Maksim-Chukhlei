@@ -1,0 +1,18 @@
+ table{
+width: 100%; 
+
+}
+td{
+border-bottom: 3px dotted rgb(187, 184, 184);
+border-right: 3px dotted rgb(187, 184, 184);
+}
+th {
+background:rgb(133, 133, 133); 
+}
+body tr:hover {
+background: #550f48;
+color: rgb(233, 186, 186);
+}
+td:nth-child(6){
+   border-right: none;
+}
